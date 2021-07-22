@@ -1,0 +1,55 @@
+/* Desktop Version */
+
+@media (min-width: 350px) {
+  .column1 {
+    width: 480px;
+  }
+  .text-aboutme {
+    position: absolute;
+    width: 312px;
+    height: 230px;
+    left: 30px;
+    top: 406px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+    letter-spacing: 0.175em;
+
+    color: white;
+  }
+}
+
+/*-----mobile ------*/
+@media screen and (max-width: 600px) {
+  .aboutme-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+
+  .column1 {
+    width: 490px;
+  }
+  .text-aboutme {
+    width: 312px;
+    height: 230px;
+    left: 34px;
+    top: 369px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+    letter-spacing: 0.175em;
+
+    color: black;
+  }
+}

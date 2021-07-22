@@ -1,0 +1,88 @@
+/* Desktop Version */
+@media (min-width: 350px) {
+  .portfolio-container,
+  .spider-web {
+    width: 250px;
+  }
+  .icons-projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .pro-title,
+  .projects-icons1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 35px;
+    top: 87px;
+  }
+  .projects-icons2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 35px;
+    top: 227px;
+  }
+  .projects-icons3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 35px;
+    top: 356px;
+  }
+  .projects-icons4 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 35px;
+    top: 485px;
+  }
+}
+
+/*-----mobile ------*/
+@media screen and (max-width: 600px) {
+  .portfolio-container,
+  .spiderweb {
+    width: 370px;
+  }
+  .icons-projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .pro-title1,
+  .projects-icons1 {
+    position: inherit;
+    width: 100px;
+    height: 100px;
+    left: 35px;
+    top: 87px;
+    text-decoration-color: black;
+  }
+  .pro-title2,
+  .projects-icons2 {
+    position: inherit;
+    width: 100px;
+    height: 100px;
+    left: 35px;
+    top: 227px;
+  }
+  .pro-title3,
+  .projects-icons3 {
+    position: inherit;
+    width: 100px;
+    height: 100px;
+    left: 35px;
+    top: 356px;
+  }
+  .pro-title4,
+  .projects-icons4 {
+    position: inherit;
+    width: 100px;
+    height: 100px;
+    left: 35px;
+    top: 485px;
+  }
+}
