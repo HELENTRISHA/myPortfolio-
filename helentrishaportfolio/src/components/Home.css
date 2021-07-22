@@ -1,0 +1,54 @@
+.homepage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
+}
+.back-img {
+  position: absolute;
+  width: 350px;
+  height: 871px;
+  left: -194px;
+  top: -49px;
+
+  background-image: url("https://res.cloudinary.com/dnefeccae/image/upload/v1626918690/helenpictures/checkpoint_4/web_background_nyuk2l.jpg");
+}
+
+/*-------mobile version -----*/
+@media screen and (max-width: 600px) {
+  .homepage-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+  .back-img {
+    position: inherit;
+    max-width: 600px;
+    height: 600px;
+    margin-right: -22px;
+    margin-left: -22px;
+    background: url("https://res.cloudinary.com/dnefeccae/image/upload/v1626918690/helenpictures/checkpoint_4/web_background_nyuk2l.jpg");
+  }
+  .my-journey {
+    position: absolute;
+    width: 306px;
+    height: 294px;
+    left: 36px;
+    top: 484px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+    letter-spacing: 0.175em;
+
+    color: #ffffff;
+  }
+  .title-name {
+    color: white;
+  }
+}
